@@ -234,7 +234,7 @@ const COLUMNS = ["latitude","longitude","price","minimum_nights","number_of_revi
   "reviews_per_month","calculated_host_listings_count","availability_365",
   "neighbourhood_group","neighbourhood"];
 
-const DEFAULT_API = "http://127.0.0.1:8000";
+const DEFAULT_API = "https://nyc-airbnb-room-type-predictor-rmw9.onrender.com";
 
 const els = {
   form: document.getElementById("predictForm"),
